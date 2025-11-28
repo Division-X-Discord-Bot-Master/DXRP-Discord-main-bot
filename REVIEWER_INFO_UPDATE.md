@@ -1,5 +1,7 @@
 # 👮 Reviewer Information Feature
 
+## ✨ What's New?
+
 Applications now show **who reviewed them** and **when they were reviewed**!
 
 ## 🎯 Features Added
