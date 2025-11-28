@@ -1,0 +1,26 @@
+# ==================== APPLICATION SYSTEM CONFIGURATION ====================
+# Copy these values and paste them into cogs/application_system.py (lines 11-22)
+
+# STEP 1: Get your channel IDs (Right-click channel → Copy ID)
+APPLICATION_ONLY_CHANNEL = YOUR_APPLICATIONS_CHANNEL_ID_HERE
+STAFF_REVIEW_CHANNEL = YOUR_STAFF_REVIEW_CHANNEL_ID_HERE
+
+# STEP 2: Get your role IDs (Server Settings → Roles → Right-click role → Copy ID)
+APPLICANT_ROLE_ID = YOUR_APPLICANT_ROLE_ID_HERE
+APPROVED_ROLE_ID = YOUR_APPROVED_ROLE_ID_HERE
+REJECTED_ROLE_ID = YOUR_REJECTED_ROLE_ID_HERE  # Or set to None if you don't want this
+
+# STEP 3: Optional - Add OpenAI API key for AI reviews (or leave as None)
+OPENAI_API_KEY = None  # Or "sk-your-api-key-here"
+
+# STEP 4: Customize settings (optional)
+COOLDOWN_DAYS = 7  # Days between applications
+
+# ==================== EXAMPLE WITH REAL IDS ====================
+# APPLICATION_ONLY_CHANNEL = 1234567890123456789
+# STAFF_REVIEW_CHANNEL = 9876543210987654321
+# APPLICANT_ROLE_ID = 1111111111111111111
+# APPROVED_ROLE_ID = 2222222222222222222
+# REJECTED_ROLE_ID = 3333333333333333333
+# OPENAI_API_KEY = None
+# COOLDOWN_DAYS = 7
